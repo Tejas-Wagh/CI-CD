@@ -5,7 +5,13 @@ import { useState } from "react";
 function Form() {
   const [todos, setTodos] = useState<string[]>([]);
   const [todo, setTodo] = useState<string>("");
+  
 
+
+
+
+
+  
   function submitTodo() {
     setTodos((prev: string[]) => {
       return [...prev, todo];
