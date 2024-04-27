@@ -24,7 +24,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: todoapp:latest  # Replace with your Docker Hub username and repository
+        tags: tej200/todoapp:latest  # Replace with your Docker Hub username and repository
 
     - name: Verify Pushed Image
-      run: docker pull todoapp:latest  # Replace with your Docker Hub username and repository
+      run: docker pull tej200/todoapp:latest  # Replace with your Docker Hub username and repository
